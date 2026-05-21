@@ -1,0 +1,110 @@
+{
+    "id": "el-robot",
+    "title": "El Robot",
+    "description": "El error invisible que hace que tu WhatsApp suene como robot",
+    "fps": 30,
+    "durationInFrames": 450,
+    "width": 1080,
+    "height": 1920,
+    "scenes": [
+          {
+                  "id": "hook",
+                  "type": "scene-title",
+                  "label": "Hook",
+                  "startFrame": 0,
+                  "durationInFrames": 75,
+                  "background": "#F5F5F7",
+                  "content": {
+                            "title": "El error invisible que hace que tu WhatsApp suene como robot",
+                            "size": "lg",
+                            "align": "left"
+                  },
+                  "badge": { "variant": "tag", "position": "top-right", "delay": 15 },
+                  "caption": { "text": "El error invisible que hace sonar tu WhatsApp como robot", "position": "bottom", "size": "sm" }
+          },
+          {
+                  "id": "problema",
+                  "type": "scene-title",
+                  "label": "Problema",
+                  "startFrame": 75,
+                  "durationInFrames": 75,
+                  "background": "#F5F5F7",
+                  "content": {
+                            "title": "Tus mensajes suenan correctos.",
+                            "subtitle": "Pero no conectan con la persona del otro lado.",
+                            "size": "md",
+                            "align": "left"
+                  },
+                  "caption": { "text": "Suenan correctos. Pero no conectan.", "position": "bottom", "size": "sm" }
+          },
+          {
+                  "id": "ejemplo-malo",
+                  "type": "chat",
+                  "label": "Ejemplo malo",
+                  "startFrame": 150,
+                  "durationInFrames": 90,
+                  "background": "#FAFAFA",
+                  "content": {
+                            "context": "Respuesta generica",
+                            "bubbles": [
+                                        { "text": "Hola! Te cuento sobre nuestro servicio.", "type": "enviado", "delay": 0 },
+                                        { "text": "Tenemos planes desde $XX/mes con acceso completo a la plataforma.", "type": "enviado", "delay": 20 },
+                                        { "text": "Si necesitas mas info no dudes en consultarme.", "type": "enviado", "delay": 40 }
+                            ]
+                  },
+                  "label_overlay": { "text": "Suena a robot.", "style": "error" },
+                  "caption": { "text": "Correcto. Pero frio. Sin persona.", "position": "bottom", "size": "sm" }
+          },
+          {
+                  "id": "correccion",
+                  "type": "chat",
+                  "label": "Correccion Metodo JAPI",
+                  "startFrame": 240,
+                  "durationInFrames": 90,
+                  "background": "#FAFAFA",
+                  "content": {
+                            "context": "Con intencion JAPI",
+                            "bubbles": [
+                                        { "text": "Hola Caro, vi que te intereso el tema de automatizacion.", "type": "enviado", "delay": 0, "highlight": false },
+                                        { "text": "Una pregunta rapida: que es lo que mas tiempo te consume hoy en tu negocio?", "type": "enviado", "delay": 20, "highlight": true }
+                            ]
+                  },
+                  "label_overlay": { "text": "Esto conecta.", "style": "success" },
+                  "caption": { "text": "Una pregunta supera tres parrafos.", "position": "bottom", "size": "sm" }
+          },
+          {
+                  "id": "cierre",
+                  "type": "scene-title",
+                  "label": "Cierre",
+                  "startFrame": 330,
+                  "durationInFrames": 60,
+                  "background": "#F5F5F7",
+                  "content": {
+                            "title": "No necesitas escribir mas.",
+                            "subtitle": "Necesitas escribir con mas intencion.",
+                            "size": "md",
+                            "align": "left"
+                  },
+                  "caption": { "text": "No mas. Con mas intencion.", "position": "bottom", "size": "sm" }
+          },
+          {
+                  "id": "cta",
+                  "type": "cta",
+                  "label": "CTA Final",
+                  "startFrame": 390,
+                  "durationInFrames": 60,
+                  "background": "#CEF13B",
+                  "content": {
+                            "ctaText": "Guarda este reel si vendes por WhatsApp.",
+                            "subText": "Metodo JAPI para mensajes que conectan.",
+                            "accentLabel": "JAPI HUB"
+                  }
+          }
+    ],
+    "metadata": {
+          "created": "2026-05-21",
+          "version": "1.0.0",
+          "author": "JAPI HUB",
+          "tags": ["whatsapp", "ventas", "comunicacion", "metodo-japi"]
+    }
+}
