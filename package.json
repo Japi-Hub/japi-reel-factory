@@ -1,0 +1,22 @@
+{
+    "name": "japi-reel-factory",
+    "version": "1.0.0",
+    "description": "Sistema reutilizable para generar reels verticales JAPI HUB — Remotion + React",
+    "scripts": {
+          "start": "remotion studio",
+          "render": "remotion render ElRobot renders/el-robot.mp4 --width=1080 --height=1920",
+          "render:all": "node scripts/render-all.js"
+    },
+    "dependencies": {
+          "@remotion/cli": "^4.0.0",
+          "@remotion/player": "^4.0.0",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "remotion": "^4.0.0"
+    },
+    "devDependencies": {
+          "@types/react": "^18.2.0",
+          "@types/react-dom": "^18.2.0",
+          "typescript": "^5.0.0"
+    }
+}
