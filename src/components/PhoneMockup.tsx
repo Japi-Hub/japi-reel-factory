@@ -1,7 +1,6 @@
 import React from 'react';
 import { useCurrentFrame, interpolate } from 'remotion';
 import { COLORS, RADIUS } from '../styles/tokens';
-
 export interface PhoneMockupProps {
     children?: React.ReactNode;
     delay?: number;
@@ -42,8 +41,8 @@ export const PhoneMockup: React.FC<PhoneMockupProps> = ({
                     overflow: 'hidden',
           }}>
                     {children}
-                  </div>div>
-          </div>div>
+                  </div>
+          </div>
         );
 };
 
