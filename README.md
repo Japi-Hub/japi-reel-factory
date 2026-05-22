@@ -1,4 +1,4 @@
-# japi-reel-factory
+——# japi-reel-factory
 
 Sistema reutilizable para generar reels verticales JAPI HUB con animaciones.
 Remotion + React + CSS. Sin GPU. Sin modelos pesados.
