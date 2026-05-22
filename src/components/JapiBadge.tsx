@@ -28,7 +28,7 @@ export const JapiBadge: React.FC<JapiBadgeProps> = ({
                                        fontSize: FONT_SIZES.xs, fontFamily: FONTS.body, fontWeight: FONT_WEIGHTS.semibold,
                                        color: COLORS.textoSutil, letterSpacing: '0.05em', textTransform: 'uppercase' }}>
                             @japihub
-                  </div>div>
+                  </div>
                 );
     }
 
@@ -41,7 +41,7 @@ export const JapiBadge: React.FC<JapiBadgeProps> = ({
                             <span style={{ width: 8, height: 8, borderRadius: '50%',
                                                     backgroundColor: COLORS.verdeLima, display: 'inline-block' }} />
                             JAPI HUB
-                  </div>div>
+                  </div>
                 );
     }
 
@@ -49,7 +49,7 @@ export const JapiBadge: React.FC<JapiBadgeProps> = ({
           <div style={{ position: 'absolute', ...pos, opacity, fontFamily: FONTS.heading,
                              fontSize: FONT_SIZES.md, fontWeight: FONT_WEIGHTS.black, color: COLORS.negro,
                              letterSpacing: '-0.04em' }}>
-                  JAPI<span style={{ color: COLORS.morado }}>.</span>span>
-          </div>div>
+                  JAPI<span style={{ color: COLORS.morado }}>.</span>
+          </div>
         );
 };
