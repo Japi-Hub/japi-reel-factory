@@ -9,6 +9,7 @@ export interface SceneTitleProps {
     accentColor?: string;
     size?: 'sm' | 'md' | 'lg' | 'hero';
     align?: 'left' | 'center' | 'right';
+}
 
 export const SceneTitle: React.FC<SceneTitleProps> = ({
     title, subtitle, delay = 0, accentColor = COLORS.verdeLima,
