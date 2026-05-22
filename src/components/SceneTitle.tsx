@@ -9,7 +9,6 @@ export interface SceneTitleProps {
     accentColor?: string;
     size?: 'sm' | 'md' | 'lg' | 'hero';
     align?: 'left' | 'center' | 'right';
-}
 
 export const SceneTitle: React.FC<SceneTitleProps> = ({
     title, subtitle, delay = 0, accentColor = COLORS.verdeLima,
@@ -34,7 +33,7 @@ export const SceneTitle: React.FC<SceneTitleProps> = ({
                     transform: `translateY(${interpolate(p1, [0, 1], [40, 0])}px)`,
           }}>
                     {title}
-                  </h1>h1>
+                  </h1>
             {subtitle && (
                     <p style={{
                                 fontFamily: FONTS.body, fontSize: FONT_SIZES.sm,
@@ -44,13 +43,13 @@ export const SceneTitle: React.FC<SceneTitleProps> = ({
                                 transform: `translateY(${interpolate(p2, [0, 1], [20, 0])}px)`,
                     }}>
                       {subtitle}
-                    </p>p>
+                    </p>
                   )}
                   <div style={{
                     width: 48, height: 5, backgroundColor: accentColor, borderRadius: 99, marginTop: 8,
                     opacity: interpolate(lf, [0, 12], [0, 1], { extrapolateRight: 'clamp' }),
                     alignSelf: align === 'center' ? 'center' : align === 'right' ? 'flex-end' : 'flex-start',
           }} />
-          </div>div>
+          </div>
         );
 };
